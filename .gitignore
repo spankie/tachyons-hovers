@@ -57,3 +57,6 @@ Session.vim
 # Node
 node_modules/*
 npm-debug.log
+
+# My test files
+index.html

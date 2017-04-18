@@ -60,3 +60,5 @@ npm-debug.log
 
 # My test files
 index.html
+tachyons.min.css
+style.css

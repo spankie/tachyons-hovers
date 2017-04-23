@@ -129,10 +129,17 @@
   transition: background-color .15s ease-in-out; 
 }
 
-/* SD: REMOVE BACKGROUND ON HOVER */
+/* REMOVE BACKGROUND ON HOVER */
 
 .no-bg-hover:hover,
 .no-bg-hover:focus {
   transition: background-color .25s ease-in-out; 
   background-color: transparent;
+}
+
+/* REMOVE BACKGROUND ON HOVER */
+/* Not supported in IE(<7) */
+.no-ba-hover:hover,
+.no-ba-hover:focus {
+  border-color: transparent;
 }

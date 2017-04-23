@@ -133,6 +133,11 @@ Running `$ npm start` will process the source css and place the built css in the
 /* Combine with classes in skins and skins-pseudo for 
  * thousands of different transition possibilities. */
 .bg-animate, .bg-animate:hover, .bg-animate:focus { -webkit-transition: background-color .15s ease-in-out; transition: background-color .15s ease-in-out; }
+/* REMOVE BACKGROUND ON HOVER */
+.no-bg-hover:hover, .no-bg-hover:focus { transition: background-color .25s ease-in-out; background-color: transparent; }
+/* REMOVE BACKGROUND ON HOVER
+ * Not supported in IE(<7) */
+.no-ba-hover:hover, .no-ba-hover:focus { border-color: transparent; }
 ```
 
 ## Contributing
